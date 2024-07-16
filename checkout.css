@@ -1,0 +1,357 @@
+body{
+    height:100vh;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    margin-left: 6%;
+    margin-right: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check{
+    background-color: bisque;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+}
+h1,nav,.icons{
+    flex:1;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    column-gap:1%;
+}
+.nav{
+    text-decoration: none;
+    color:rgb(104, 101, 101)
+}
+.nav:hover{
+    color:black;
+}
+.icons {
+    color: rgb(160, 140, 140);
+    display: flex;
+    column-gap: 2.5%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.center{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div{
+    height:80%;
+    width:100%;
+    display: flex;
+}
+.cleft{
+    width:45%;
+    height:170%;
+}
+.rleft{
+    background-color: #f3f3f3;
+    width:55%;
+    height:70%;
+    position: relative;
+    bottom:5%;
+    padding-left: 5%;
+}
+.one{
+    height:6%;
+    width:100%;
+    position: relative;
+    bottom: 5%;
+    display: flex;
+}
+.one h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom:35%;
+}
+.one p{
+    font-size: 13px;
+    color: gray;
+}
+.one p a{
+    text-decoration: none;
+    color:#5B86E5;
+}
+.email{
+    border:1px solid grey;
+    width:95%;
+    height:5%;
+    padding:1.5%;
+    position: relative;
+    bottom:5%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 5%;
+}
+select{
+    border:1px solid grey;
+    width:100%;
+    height:7%;
+    padding: 1%;
+    position: relative;
+    bottom:8%;
+    color: grey;
+}
+.name{
+    display:flex;
+    position: relative;
+    bottom:5%;
+}
+.name input{
+    height:25%;
+    width:45%;
+    padding: 2%;
+    border:1px solid grey;
+}
+.Address{
+    height:6%;
+    width:98%;
+    position: relative;
+    bottom: 2%;
+    border:1px solid grey;
+}
+.city{
+    display:flex;  
+}
+.city input{
+    height:20%;
+    width:45%;
+    padding: 2%;
+    border:1px solid grey;
+}
+.checkbox{
+    height:5%;
+    width:98%;
+    position: relative;
+    right:46%;
+    border:6px solid rgb(0, 0, 0);
+}
+label{
+    color:grey;
+    font-size:13.5px;
+    position: relative;
+    bottom: 5%;
+    left:8%;
+}
+.div2{
+    height:22%;
+    width:96%;
+    background-color: #f3f3f3;
+    position: relative;
+    bottom:8%;
+    padding:0% 2%;
+
+}
+.cardnumber{
+    width:95%;
+    height:8%;
+    padding: 2%;
+    position: relative;
+    top:2%;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.code{
+    display: flex;
+    column-gap:1%;
+    position: relative;
+    top:5%;
+}
+.code input{
+    height:7%;
+    width:48%;
+    position: relative;
+    top:55%;
+    padding: 2%;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+.cardholder{
+    width:95%;
+    height:8%;
+    padding: 2%;
+    position: relative;
+    top:9%;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.checkbox2{
+    height:17%;
+    width:98%;
+    position: relative;
+    top:10%;
+    right:46%;
+    border:6px solid rgb(0, 0, 0);
+}
+.cleft button{
+    background-color: black;
+    width:95%;
+    height:6%;
+    padding: 2%;
+    position: relative;
+    bottom:8%;
+    color: #e9e5e5;
+    margin:2%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgb(145, 139, 139);
+}
+hr{
+    position: relative;
+    bottom: 7%;
+}
+.rleftdown{
+    height:33%;
+    width:80%;
+    display: flex;
+}
+.rleftdown img,p,h6{
+    flex:2;
+}
+.rleftdown img{
+    height:100%;
+}
+.rleftdown h6{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.red{
+    position: relative;
+    right:90%;
+    font-weight: lighter;
+}
+.rleftdown p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+}
+.rleft button{
+    height:7%;
+}
+.discount{
+    width:55%;
+    background-color:white;
+    color: black;
+    padding:2%;
+    border-color: white;
+}
+.apply{
+    width:20%;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding:2%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgb(126, 120, 120);
+    position: relative;
+    left:4%
+}
+.div4{
+    height:30%;
+    width:80%;
+    display: flex;
+}
+.div41{
+    height:100%;
+    width:80%;
+}
+.div42{
+    height:100%;
+    width:20%;
+}
+.div4 p{
+    font-size: 13px;
+}
+.subscribe{
+    height: 100vh;
+}
+.submain{
+    height:70%;
+    width:80%;
+    margin: auto ;
+    position: relative;
+    top:11%;
+    display: flex;
+}
+
+.subleft{
+    flex:1.3;
+}
+.subleft img{
+    height:100%;
+    width:100%
+}
+.submiddle{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+.submiddle h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20%;
+}
+.submiddle p{
+    color:var(--grey);
+    text-align: center;
+    font-size: small;
+}
+.submiddle input{
+    border-color: white;
+    box-shadow: 0px 10px 14px var(--grey);
+    height:8%;
+    width:70%;
+    margin:5% 15% ;
+}
+.submiddle button{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    height:9%;
+    box-shadow:0px 10px 10px var(--grey);
+    align-self: center;
+
+}
+.subright{
+    flex:1.3;
+}
+.subright img{
+    height:100%;
+    width:100%;
+}
+.subfooter{
+    height:10%;
+    width:80%;
+    position: relative;
+    right:3%;
+    top:13%;
+    display:flex;
+}
+.subfooter h1{
+    font-family: 'Times New Roman', Times, serif;
+    flex:1;
+}
+.subfooter nav{
+    flex:3;
+}
+.subscribe hr{
+    position: relative;
+    top:17%
+}
+.divide{
+    position: relative;
+    top:45%;
+
+}

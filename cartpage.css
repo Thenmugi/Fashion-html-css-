@@ -1,0 +1,257 @@
+body{
+    height:100vh;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    margin-left: 6%;
+    margin-right: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check{
+    background-color: bisque;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+}
+h1,nav,.icons{
+    flex:1;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    column-gap:1%;
+}
+.nav{
+    text-decoration: none;
+    color:rgb(104, 101, 101)
+}
+.nav:hover{
+    color:black;
+}
+.icons {
+    color: rgb(160, 140, 140);
+    display: flex;
+    column-gap: 2.5%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
+.pricediv{
+    height:30%;
+    width:100%;
+    display: flex;
+}
+.one{
+    height:100%;
+    width:30%;
+    display: flex;
+}
+.onediv{
+    width:50%;
+    height:100%;
+}
+.onediv h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.onediv p{
+    font-size: 12px;
+    color:grey
+}
+.onediv a{
+    font-size: 12px;
+    color:grey
+}
+.two{
+    width:20%;
+    height:100%;   
+}
+.two h5{
+    text-align: center;
+    position: relative;
+    left:5%;
+}
+.three{
+    width:30%;
+    height:100%;      
+}
+.threebtn{
+    padding: 1%;
+    height:15%;
+    width:16%;
+    border:1px solid grey;
+    margin: 2% 40%;
+    border-radius:3px;
+    position: relative;
+    top:3%;
+    left:14%;
+}
+.four {
+    width:30%;
+    height:100%;      
+    position: relative;
+    left:2%;
+}
+.four h5{
+    text-align: center;
+}
+.tag{
+    height:30%;
+    width:40%;
+    margin-left:60%;
+}
+.tag input{
+    height:18%;
+    width:20%;
+    position: relative;
+    right:7%;
+}
+.tag label{
+    position: relative;
+    right:14%;
+    bottom: 4%;
+    font-size:medium;
+}
+.taghr{
+    display: flex;
+    position: relative;
+    bottom: 13%;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    height:20%;
+    width:80%;
+    margin-left: 8%;
+    box-shadow: 0px 10px 10px rgb(160, 158, 158);
+    position: relative;
+    bottom: 15%;
+}
+.tag a{
+    color: black;
+    text-align: center;
+    position: relative;
+    left:40%;
+    font-size:medium;
+    bottom: 10%;
+}
+.taghr{
+    display: flex;
+    column-gap: 70%;
+    position: relative;
+    bottom: 13%;
+}
+.checkout{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    height:20%;
+    width:80%;
+    box-shadow: 0px 10px 10px rgb(160, 158, 158);
+    position: relative;
+    right:45%;
+    margin-top: 4%;
+}
+.dollar{
+    position: relative;
+    right:40%
+}
+.subscribe{
+    height: 100vh;
+}
+.submain{
+    height:70%;
+    width:80%;
+    margin: auto ;
+    position: relative;
+    top:11%;
+    display: flex;
+}
+
+.subleft{
+    flex:1.3;
+}
+.subleft img{
+    height:100%;
+    width:100%
+}
+.submiddle{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+.submiddle h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20%;
+}
+.submiddle p{
+    color:var(--grey);
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom: 20%;
+}
+.submiddle input{
+    border-color: white;
+    box-shadow: 0px 10px 14px var(--grey);
+    height:8%;
+    width:70%;
+    margin:5% 15% ;
+    position: relative;
+    bottom: 20%;
+}
+.submiddle button{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    height:9%;
+    width:20%;
+    box-shadow:0px 10px 10px var(--grey);
+    align-self: center;
+    box-shadow: 0px 10px 13px rgb(192, 191, 191);
+}
+.subright{
+    flex:1.3;
+}
+.subright img{
+    height:100%;
+    width:100%;
+}
+.subfooter{
+    height:10%;
+    width:80%;
+    margin-left: 10%;
+    position: relative;
+    top:13%;
+    display:flex;
+    right:13%
+}
+.subfooter h1{
+    font-family: 'Times New Roman', Times, serif;
+    flex:1;
+}
+.subfooter nav{
+    flex:3;
+}
+.subscribe hr{
+    position: relative;
+    top:17%
+}

@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height:100vh;
+}
+header{
+    position: relative;
+    bottom: 4%;
+    text-align: center;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+header p{
+    color: grey;
+    font-size: small;
+}
+nav{
+    margin:0% 4.5%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2%;
+    position: relative;
+    bottom: 3%;
+}
+.nav{
+    border: 1px solid rgb(253, 244, 244);
+    padding:0.8%;
+    font-size: small;
+    color: grey;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 246);
+}
+.nav:hover{
+    box-shadow:0px 10px 12px rgb(180, 178, 178);
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(180, 178, 178);
+}
+.container{
+    height:70%;
+    width:75%;
+    margin:1% 0% 0.5% 6%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 1%;
+    row-gap: 2.5%;
+    position: relative;
+    left:10%;
+    bottom: 3%;
+}
+.prdcart{
+    background-color: rgb(255, 255, 255);
+    height:210px;
+    max-width:210px;  
+    box-shadow: 0px 1px 12px rgb(233, 230, 230);
+}
+.prd-img{
+    max-width:220px;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: baseline;
+}
+.abtprd{
+    height:38%;
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: baseline;
+    margin-top: 0.3%;
+}
+.prd-details{
+    width:50%; 
+    height:100%; 
+}
+.prd-details p{
+    font-size:10px;
+    color: grey;
+    line-height: 8px;
+    position: relative;
+    bottom: 40px;
+}
+.prd-details h5{
+    position: relative;
+    bottom:19px;
+}
+.prd-ratings img{
+    width:10px;
+}
+.prd-ratings{
+    width:50%;
+}
+.prd-ratings p{
+    font-size: 10px;
+    color: red;
+    position: relative;
+    top:50%;
+}
+.View{
+    width:9%;
+    padding:0.4%;
+    background-color: black;
+    border-radius: 7px;
+    position: relative;
+    left:45%;
+    bottom: 4%;
+    color: white;
+    font-size: small;
+    box-shadow: 0px 8px 12px rgb(173, 173, 173) ;
+}

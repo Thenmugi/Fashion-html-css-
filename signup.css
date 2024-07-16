@@ -1,0 +1,100 @@
+*{
+    --blue:#5B86E5;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login{
+
+    height:100vh; 
+}
+.container{
+    height:80%;
+    width:80%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top:10%;
+    display: flex;
+    column-gap:5%;
+}
+.left{
+    height:100%;
+    width:50%;
+}
+.left img{
+    height:100%;
+    width:100%;
+}
+.right{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.right h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+}
+.right h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin:1%;
+}
+.outer input{
+    height:18%;
+    font-size: 12px;
+    padding: 1%;
+    margin: 1%;
+    width:40%;
+    border-color:transparent transparent grey transparent;
+    box-shadow: 0px 2px 2px rgb(184, 181, 181);
+}
+.default{
+    display: flex;
+    column-gap: 32px;
+}
+.google,.email{
+    background-color:transparent;
+    color:black;
+    width:60%;
+    border-color: #5B86E5;
+    border-radius:7px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+.google img,.email img{
+    height:70%;
+}
+.right h4{
+    position: relative;
+    left:30%;
+    color: grey;
+}
+.creation{
+    background-color: black;
+    color:white;
+    width:60%;
+    border-radius:7px;
+    font-size: 11px;
+    margin:5% 15%;
+    padding:2% 2%;
+
+}
+p{
+    font-size: 12px;
+    margin:-2% 29%;
+}
+a{
+    text-decoration: none;
+    color: #5B86E5;
+}
+h6{
+    margin-left: 70%;
+    margin-top: 5%;
+    color: rgb(85, 77, 77);
+}
